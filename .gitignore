@@ -2,4 +2,6 @@
 .idea/
 animated-card.iml
 
+dist/
+
 node_modules/
