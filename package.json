@@ -1,5 +1,5 @@
 {
-  "name": "animated-cards",
+  "name": "animated-card",
   "version": "1.0.0",
   "description": "Web component to create animated cards in your project",
   "main": "index.ts",
