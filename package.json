@@ -2,8 +2,9 @@
   "name": "animated-cards",
   "version": "1.0.0",
   "description": "Web component to create animated cards in your project",
-  "main": "index.js",
-  "module": "index.js",
+  "main": "index.ts",
+  "module": "index.ts",
   "dependencies": {
+    "lit": "^3.0.2"
   }
 }
