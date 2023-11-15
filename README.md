@@ -22,7 +22,6 @@
   </p>
 </div>
 
-# TODO
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -77,6 +76,49 @@ yarn install yarn@latest
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+To use animated cards, simply import the component and use it in the js file of your choice.
+
+```js
+import AnimatedCard from 'animated-card/dist'
+```
+
+It will automatically register the component.
+
+You can then use it in your html file like this:
+
+```html
+...
+    <script src="./index.js" type="module"></script>
+</head>
+
+<animated-card animations="[...]">
+  <div>
+    <p>Hello world!</p>
+  </div>
+</animated-card>
+```
+
+The animations property follows this pattern: `event:animation:element (optional), event:animation, ...`
+
+The element field stands for the element that will trigger the animation, 
+the animation will always be applied to the animated-card element. 
+
+The currently available animations are:
+- bounce
+- flip
+- rotate
+
+They can be applied on all events that can be binded on a dom element.
+
+### Example
+
+```html
+<animated-card animations="rotate,flip:mouseleave,bounce:load:window">
+  <div>
+    <img src="https://avatars.githubusercontent.com/u/67747327?v=4" />
+  </div>
+</animated-card>
+```
 
 
 <!-- ROADMAP -->
