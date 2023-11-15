@@ -76,7 +76,7 @@ yarn install yarn@latest
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-To use animated cards, simply import the component and use it in the js file of your choice.
+To use animated cards, simply import the component and use it in the js file that suits your needs.
 
 ```js
 import AnimatedCard from 'animated-card/dist'
@@ -98,7 +98,7 @@ You can then use it in your html file like this:
 </animated-card>
 ```
 
-The animations property follows this pattern: `event:animation:element (optional), event:animation, ...`
+The animations property follows this pattern: `event:animation:element(optional), event:animation, ...`
 
 The element field stands for the element that will trigger the animation, 
 the animation will always be applied to the animated-card element. 
@@ -113,7 +113,7 @@ They can be applied on all events that can be binded on a dom element.
 ### Example
 
 ```html
-<animated-card animations="rotate,flip:mouseleave,bounce:load:window">
+<animated-card animations="rotate:click,flip:mouseleave,bounce:load:window">
   <div>
     <img src="https://avatars.githubusercontent.com/u/67747327?v=4" />
   </div>
