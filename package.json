@@ -1,9 +1,45 @@
 {
-  "name": "animated-cards",
+  "name": "animated-card",
   "version": "1.0.0",
   "description": "Web component to create animated cards in your project",
-  "main": "index.js",
-  "module": "index.js",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE.txt"
+  ],
+  "keywords": [
+    "web",
+    "component",
+    "animation",
+    "card",
+    "lit",
+    "typescript",
+    "gsap",
+    "vite"
+  ],
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/humblots/animated-card/"
+  },
+  "license": "MIT",
+  "author": "Stéphane Humblot",
   "dependencies": {
+    "gsap": "^3.12.2",
+    "lit": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "build": "tsc --build"
   }
 }
