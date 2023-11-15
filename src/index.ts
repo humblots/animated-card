@@ -54,7 +54,7 @@ function addListener(
 
 function createCard(
   animationsToTrigger: string,
-  refs: gsap.core.Tween[],
+  refs: {[key: string]: gsap.core.Tween[]},
   isRunning: {[key:string]: boolean}
 ): HTMLDivElement {
   const cardDiv = document.createElement('div');
@@ -69,17 +69,14 @@ export class AnimatedCard extends LitElement {
   @property({type: String})
   animations: string = '';
 
-  animationsRef: {[key: string]: gsap.core.Tween[]} = {};
-  isRunning: {[key:string]: boolean} = {};
-
-  static styles =  [
-    css`
+  static styles = css`
     .card {
       width: fit-content;
-      padding: 10px;
-      border: solid 1px grey;
-      border-radius: 10px;
-    }`]
+    }
+  `
+
+  animationsRef: {[key: string]: gsap.core.Tween[]} = {};
+  isRunning: {[key:string]: boolean} = {};
 
   protected render(): HTMLDivElement|string {
     if (this.animations === undefined) {
