@@ -157,7 +157,8 @@ You'll need to pay the GSAP license if your project has paid options.
 [stars-url]: https://github.com/humblots/animated-card/stargazers
 [issues-shield]: https://img.shields.io/github/issues/humblots/animated-card.svg?style=for-the-badge
 [issues-url]: https://github.com/humblots/animated-card/issues
-[license-shield]: https://img.shields.io/github/license/humblots/animated-card.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/humblots/animated-card?style=for-the-badge
+
 [license-url]: https://github.com/humblots/animated-card/blob/master/LICENSE.txt
 [Lit]: https://img.shields.io/badge/Lit-324fff?style=for-the-badge&logo=lit&logoColor=white
 [Lit-url]: https://lit.dev/
