@@ -64,19 +64,19 @@ Here are the main technologies used in this project:
 
 ### Installation
 
-You'll need to have node or yarn on your machine to install the package.
+You'll need to have npm or yarn on your machine to install the package.
 * npm
 ```sh
-npm install npm@latest
+npm install animated-card
 ```
 * yarn
 ```sh
-yarn install yarn@latest
+yarn install animated-card
 ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-To use animated cards, simply import the component and use it in the js file that suits your needs.
+To use animated cards, simply import the component and use it in the javascript file that suits your needs.
 
 ```js
 import AnimatedCard from 'animated-card/dist'
@@ -96,6 +96,7 @@ You can then use it in your html file like this:
     <p>Hello world!</p>
   </div>
 </animated-card>
+...
 ```
 
 The animations property follows this pattern: `event:animation:element(optional), event:animation, ...`
