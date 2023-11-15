@@ -7,9 +7,11 @@
   "module": "dist/index.ts",
   "types": "dist/index.d.ts",
   "dependencies": {
+    "gsap": "^3.12.2",
     "lit": "^3.0.2"
   },
   "devDependencies": {
+    "@types/node": "^20.9.0",
     "typescript": "^5.2.2",
     "vite": "^4.5.0"
   },
