@@ -79,7 +79,7 @@ yarn install animated-card
 To use animated cards, simply import the component and use it in the javascript file that suits your needs.
 
 ```js
-import AnimatedCard from 'animated-card/dist'
+import 'animated-card'
 ```
 
 It will automatically register the component.
